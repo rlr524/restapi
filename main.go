@@ -3,9 +3,7 @@ package main
 import (
 	"github.com/rlr524/restapi/src/github.com/gorilla/mux"
 	"log"
-	//"math/rand"
 	"net/http"
-	//"strconv"
 )
 
 // book structs (model)
