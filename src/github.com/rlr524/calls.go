@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-func getBooks(w http.ResponseWriter, r *http.Request) {
+func getBooks(w http.ResponseWriter, _ *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	_ = json.NewEncoder(w).Encode(books)
 }
